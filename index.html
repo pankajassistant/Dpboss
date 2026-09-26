@@ -265,12 +265,17 @@
       box-shadow:0 8px 20px rgba(224,0,0,.35);
       transition:transform .2s ease,background .2s ease,box-shadow .2s ease;
       cursor:pointer;
+      border:none;
     }
 
     .adviser-btn:hover {
       background:#b80000;
       transform:translateY(-2px);
       box-shadow:0 12px 28px rgba(224,0,0,.45);
+    }
+
+    .adviser-btn:active {
+      transform:translateY(0);
     }
 
     @media (max-width:420px) {
@@ -339,9 +344,9 @@
       © 2026 DP Boss. All rights reserved.
     </div>
 
-    <a href="https://t.me/Adameta2" class="adviser-btn" target="_blank" rel="noopener noreferrer">
+    <button class="adviser-btn" onclick="window.open('https://t.me/Adameta2', '_blank');">
       BM ADS AGENCY - Contact Adviser
-    </a>
+    </button>
 
   </main>
 </body>
