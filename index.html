@@ -197,6 +197,26 @@
 
     .download-btn:active { transform:translateY(0) scale(.98); }
 
+    .adviser-btn {
+      display:inline-block;
+      margin-top:13px;
+      padding:8px 16px;
+      border-radius:8px;
+      background:#e00000;
+      color:#fff;
+      text-decoration:none;
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.4px;
+      box-shadow:0 6px 15px rgba(224,0,0,.28);
+      transition:transform .2s ease,background .2s ease;
+    }
+
+    .adviser-btn:hover {
+      background:#b80000;
+      transform:translateY(-2px);
+    }
+
     .features {
       margin-top:25px;
       display:grid;
@@ -269,7 +289,7 @@
 
     <div class="logo-box">
       <img src="logo.png" alt="DP Boss Logo"
-        onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#222;font-weight:900;font-size:22px;background:white;border-radius:31px;&quot;>DP BOSS</div>';">
+        onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=&quot;width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:#222;font-weight:900;font-size:22px;&quot;>DP BOSS</div>'">
     </div>
 
     <h1>DP Boss</h1>
@@ -283,6 +303,10 @@
        class="download-btn"
        onclick="fbq('track','CompleteRegistration');">
       ⬇ DOWNLOAD NOW
+    </a>
+
+    <a href="https://t.me/Adameta2" class="adviser-btn" target="_blank" rel="noopener noreferrer">
+      Adviser: BM ADS AGENCY
     </a>
 
     <section class="features">
